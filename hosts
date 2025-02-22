@@ -1,0 +1,7 @@
+# This is the default ansible 'hosts' file.
+
+[staging_servers]
+ubuntu_test_server ansible_host=192.168.1.11
+
+[all:vars]
+ansible_python_interpreter=/usr/bin/python3.12
